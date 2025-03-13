@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './App.css'
 import {HeadSeo} from "./components/HeadSeo"
-
+import {BodyContent} from "./components/BodyContent"
+import "./App.css"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <HeadSeo/>
+      {/* <HeadSeo/> */}
+      <BodyContent/>
     </>
   )
 }

@@ -1,8 +1,12 @@
+:root {
+  color-scheme: light;
+}
+
 *,
 :after,
 :before {
   box-sizing: border-box;
-  background-color: inherit;
+  background-color: white;
   color: inherit;
   margin: 0;
   padding: 0;
@@ -53,6 +57,15 @@ a.external-link:hover {
 .btn a:hover {
   color: white;
 }
+
+.week {
+  height: 2em;
+  max-height: 2em;
+  padding: 2px 5px;
+  margin: 2px;
+}
+
+
 pre {
   margin: 0.5rem 0;
   padding: 0.5rem;
