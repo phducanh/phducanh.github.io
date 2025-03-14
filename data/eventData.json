@@ -7,12 +7,7 @@
                     "date": "1998-07-31",
                     "content": "I entered the world",
                     "description": "Born in Thanh Hoa city in Viet Nam. July 31st is the birthday of Harry Potter as well. I'm a Tiger, at the same time a Leo, which constitutes my stubbornness and confidence"
-                }
-            ]
-        },
-        {
-            "title": "My teens",
-            "dateList": [
+                },
                 {
                     "date": "2003-08-01",
                     "content": "My parents got our first house built",
@@ -26,7 +21,13 @@
                     "date": "2008-07-15",
                     "content": "Suffered from a convulsion",
                     "description": "While playing tag game with my friends. Mom was in another city for studying but had to cancel to go home for me. I never want sacrifice to be an option"
-                },
+                }
+            ]
+        },
+        {
+            "title": "My teens",
+            "dateList": [
+               
                 {
                     "date": "2009-09-05",
                     "content": "Started at Tran Mai Ninh secondary school"
@@ -49,12 +50,7 @@
                     "date": "2013-09-05",
                     "content": "Started at Lam Son high school for the gifted",
                     "description": "Specialized in English. We got salary every month"
-                }
-            ]
-        },
-        {
-            "title": "My 20s",
-            "dateList": [
+                },
                 {
                     "date": "2015-01-20",
                     "content": "Got no prize in National competition",
@@ -108,7 +104,13 @@
                     "date": "2018-03-18",
                     "content": "My brother got his apartment",
                     "description": "From his own money. For a basic family like us, it's something we always dreamt of"
-                },
+                }
+            ]
+        },
+        {
+            "title": "My 20s",
+            "dateList": [
+                
                 {
                     "date": "2018-09-27",
                     "content": "Got my first viral post on Medium",
