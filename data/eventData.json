@@ -69,7 +69,8 @@
                 {
                     "date": "2016-07-19", 
                     "content": "Got on newspapers",
-                    "description": "For 10/10 in Math in National exam to university"
+                    "description": "For 10/10 in Math in National exam to university",
+                    "href":"https://vnexpress.net/ba-nu-sinh-cung-lop-chuyen-anh-gianh-diem-10-mon-toan-3440253.html"
                 },
                 {
                     "date": "2016-09-05",
@@ -79,11 +80,14 @@
                 {
                     "date": "2016-10-09",
                     "content": "🧳 Joined HRC at FTU",
-                    "description": "A club that gave me work like a real company, and helped me realize my love for digital products"
+                    "description": "A club that gave me work like a real company, and helped me realize my love for digital products",
+                    "href": "https://hrc.com.vn/"
+                   
                 },
                 {
                     "date": "2017-02-26",
-                    "content": "My bestie on The Voice Vietnam's stage"
+                    "content": "My bestie on The Voice Vietnam's stage",
+                    "href":"https://www.youtube.com/watch?v=WXqbgotjYtA"
                 },
                 {
                     "date": "2017-03-08",
@@ -114,7 +118,8 @@
                 {
                     "date": "2018-09-27",
                     "content": "Got my first viral post on Medium",
-                    "description": "Which earned me a lot of new connections to start my career"
+                    "description": "Which earned me a lot of new connections to start my career",
+                    "href":"https://medium.com/uxpress/my-friends-say-spotify-sux-so-i-took-a-look-at-its-ux-5741f3e5d99f"
                 },
                 {
                     "date": "2019-03-01",
@@ -161,7 +166,8 @@
                 {
                     "date": "2021-06-18",
                     "content": "🎧 Launched our podcast",
-                    "description": "Just normal friend conversations about normal things in life"
+                    "description": "Just normal friend conversations about normal things in life",
+                    "href":"https://open.spotify.com/show/2GUqWLgKo2DLOiJe1x9YzX"
                 },
                 {
                     "date": "2021-08-03",
@@ -173,7 +179,8 @@
                 },
                 {
                     "date": "2021-12-22",
-                    "content": "🥁 First drum lesson"
+                    "content": "🥁 First drum lesson",
+                    "href": "https://www.facebook.com/mayvees17/videos/459645869126503"
                 },
                 {
                     "date": "2022-03-19",
@@ -221,7 +228,8 @@
                 {
                     "date": "2023-06-23",
                     "content": "🧳 Same team, launched SaveDay on Product Hunt",
-                    "description": "And got product of the day badge"
+                    "description": "And got product of the day badge",
+                    "href":"https://www.producthunt.com/products/saveday#saveday"
                 },
                 {
                     "date": "2023-09-27",

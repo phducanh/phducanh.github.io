@@ -3,14 +3,6 @@ import Header from "./Header";
 import Description from "./Description";
 import TimeContentContainer from "./TimeContentContainer";
 export const BodyContent = () => {
-  useEffect(() => {
-    if (document) {
-      const popOverItem = document.querySelectorAll("[data-toggle='popover']");
-      popOverItem.forEach((item) => {
-        // item.popover();
-      });
-    }
-  }, []);
 
   useEffect(() => {
     // Handle future dates

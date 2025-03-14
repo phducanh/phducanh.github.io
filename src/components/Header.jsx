@@ -1,8 +1,8 @@
 const Header = () => {
     return (
         <h1 className="header-title sans-serif">
-            <a href="/">Mayvees's Notes</a> /
-            <span style={{fontWeight: 200}}>Life in Weeks</span>
+            <a className="!font-semibold transition-colors duration-150" href="/">Mayvees's Notes</a> {" / "} 
+            <span>Life in Weeks</span>
         </h1>
     );
 };
