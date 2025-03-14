@@ -1,23 +1,22 @@
-
 import eventData from "../../data/eventData.json";
+import { Tooltip, TooltipTrigger, TooltipContent } from "./ui/tooltip";
 
 const WeekDiv = ({ date }) => (
     <div
     data-date={date.date}
     className="week border border-tertiary float-left text-center text-truncate"
   >
-    
-    <div
-      title=""
-      target="_new"
-      data-toggle="popover"
-      data-placement="auto"
-      data-trigger="hover"
-      data-content={date.description}
-      data-original-title={date.date}
-    >
-      {date.content}
-    </div>
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <div>
+          {date.content}
+        </div>
+      </TooltipTrigger>
+      {date.description && <TooltipContent>
+        <p className={`!bg-gray-300 text-lg !text-gray-600 font-semibold px-2 py-1 ${date.description?.length > 0 ? "!mb-2" : "!mb-0"}`}>{date.date}</p>
+       {date.description?.length > 0 && <p className="text-md px-2 !mb-0 pb-2">{date.description}</p>}
+      </TooltipContent>}
+    </Tooltip>
   </div>
 );
 
