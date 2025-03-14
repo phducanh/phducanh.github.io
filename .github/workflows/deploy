@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # Change this to your default branch if it's not 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # This is required for actions-gh-pages to push to gh-pages branch
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20.16.0'  # Specify the Node.js version you want to use
+
+      - name: Clean npm cache and remove existing dependencies
+        run: |
+          npm cache clean --force
+          rm -rf node_modules
+          rm -rf package-lock.json
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch to deploy to
+          folder: dist # The folder containing the built files
