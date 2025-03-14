@@ -1,0 +1,32 @@
+{
+    "mainText": "My life, where each week I've been alive is a little box. When meaningful things happen (for both better and worse) I make a note of it so I can remember how much of life is influenced by these factors. This was originally created by Buster Benson, and if you'd like to create your own version of this, it's basically a",
+    "links": [
+      {
+        "text": "data file",
+        "url": "https://github.com/busterbenson/notes/blob/master/_data/life-in-weeks.yml"
+      },
+      {
+        "text": "template",
+        "url": "https://github.com/busterbenson/notes/blob/master/_layouts/life-in-weeks.html"
+      },
+      {
+        "text": "blog post",
+        "url": "https://github.com/busterbenson/notes/blob/master/_pages/life-in-weeks.md"
+      }
+    ],
+    "additionalText": "mashed together on",
+    "platformLinks": [
+      {
+        "text": "Jekyll",
+        "url": "https://jekyllrb.com/"
+      },
+      {
+        "text": "Github",
+        "url": "https://github.com/"
+      }
+    ],
+    "blog": {
+      "text": "Mayvees on Substack",
+      "url": "https://mayvees.substack.com/"
+    }
+  }
